@@ -6,7 +6,7 @@ Yes, really.
 
 This exists so you can press **“Play” in Steam** and immediately get sucked into short-form content instead of your backlog.
 
-![IG Reels in Steam - Play](/docs/Steam_Screenshot_PLay.png)
+![IG Reels in Steam - Play](/docs/Steam_Screenshot_Play.png)
 
 ![IG Reels in Steam](/docs/Steam_Screenshot.png)
 
