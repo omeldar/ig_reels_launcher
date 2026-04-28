@@ -61,13 +61,24 @@ If you skip this step, it will fail. Not mysteriously—just correctly.
 
 ---
 
-### 3. Test it manually
+### 3. Build
+
+Build the launcher before using it:
 
 ```bash
-./your_launcher_script
+# Example (adjust depending on your setup)
+make
 ```
 
-If everything is set correctly, Instagram Reels should open in Brave.
+or if it's a script-based setup:
+
+```bash
+chmod +x your_launcher_script
+```
+
+If neither of these works, inspect the repo and do the obvious thing™ for your environment.
+
+Note: For most of you windows users, it will generate a `.exe`. You will have to add that through Steam later (see step 4).
 
 ---
 
