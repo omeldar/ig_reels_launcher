@@ -59,9 +59,22 @@ cd ig_reels_launcher
 Open the launcher script and update any hardcoded paths:
 
 - Path to the **Brave executable**
+- Path to your brave profiles `--user-data-dir`
 - Any OS-specific differences (Windows/Linux/etc.)
 
-If you skip this step, it will fail. Not mysteriously—just correctly.
+If you skip this step, it will fail. My configuration looks like this (you will get this after cloning):
+
+```
+std::string command =
+        "\"C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe\""
+        " --app=https://www.instagram.com/reels/"
+        " --user-data-dir=\"C:\\Users\\akotami\\AppData\\Local\\ReelsProfile\""
+        " --no-first-run"
+        " --no-default-browser-check"
+        " --kiosk";
+```
+
+You will have to change the username from `akotami` to yours!
 
 ---
 
